@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>My modal</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  <div class="modal-header" > ĐẶT MUA HÀNG </div>
+    <span class="close">&times;</span>
+    <div class="modal-container" >
+    
+  <div class="container">
+    <div class="form-order">
+	<div class="header"></div>
+	<div class="content">
+		<p class="info">Vui lòng để lại thông tin khách hàng</p>
+    <p  style="color:red;" id="erro_notify" class="info"></p>
+		<div class="form-group">
+			<input type="text" class="form-control order-phone" id="order_phone_1" placeholder="Số điện thoại">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="order_name_1" placeholder="Tên của bạn">
+				</div>
+				<div class="form-group">
+					<input type="number" class="form-control order-quantity" id="order_quantity_1" placeholder="Số lượng hộp">
+					</div>
+					<div class="price">
+						<p class="new-price">Giá niêm yết:
+							<br>
+								<span>295.000</span>đ/hộp 30 viên
+							</p>
+						</div>
+						<div class="form-group">
+							<p style="text-align: center;">Freeship toàn quốc từ 02 hộp trở lên</p>
+						</div>
+    <button id="order-submit" class="btn btn-primary js_submit" > <div id="lable-order">  Đặt hàng ngay </div>
+     <img style="display: none; "  id="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+    </button>
+					</div>
+				</div>
+      </div>
+
+      
+    </div>
+<!---------------->
+
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

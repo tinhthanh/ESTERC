@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #777;
+  
+}
+#myModal {
+  /* The Modal (background) */
+&.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+/* Modal Content */
+ .modal-content {
+    position: relative;
+    border-radius: 10px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    border: 1px solid #888;
+    max-width: 320px;
+ }
+
+/* The Close Button */
+.close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    color: #202125;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.modal-header {
+  text-align: center;
+	 padding: 9px 0px 9px 20px;
+    background-color: #eee;
+    border-radius: 6px 6px 0px 0px;
+    color: #202125;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 100;
+    color: #626262;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+}
+
+
+.modal-container {
+  .bx {
+  display:flex;
+  height:100%;
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+   opacity:0; 
+  }
+}
+ 
+  .red {
+    color:red;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+.container {
+    border-radius: 5px;
+    padding: 0px 1px 0px 1px;
+}
+}
+.hiden {
+  display: none;
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-order {
+.btn-primary {
+  color: #fff;
+  border-color: #2e6da4;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+  .price {
+    text-align: right;
+    .new-price {
+      text-transform: uppercase;
+      span {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    }
+  }
+  .js_submit {
+    display: block;
+    width: 100%;
+    color: #292929;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #cb9b3c;
+    background: -webkit-linear-gradient(top, #cb9b3c, #ecb824);
+    background: -o-linear-gradient(top, #cb9b3c, #ecb824);
+    background: linear-gradient(to top, #cb9b3c, #ecb824);
+    border: 0;
+  }
+  font-family: 'Roboto',sans-serif;
+  color: #FFF;
+  border-radius: 3px;
+  background-color: #47b849;
+  border: 1px solid #3c8e3c3b;
+  margin: 0 auto;
+  .header {
+    background: url(//detoxgreen.vn/wp-content/themes/HM/landing-1812018/bg_header.jpg) top center no-repeat;
+    background-color: #cc2229;
+    background-size: contain;
+    min-height: 81px;
+    border-radius: 3px 3px 0 0;
+  }
+  .content {
+    padding: 15px;
+  }
+  .info {
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  background-color: #40a542;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#loading {
+  display: none;
+}
